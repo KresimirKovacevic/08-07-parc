@@ -34,13 +34,13 @@ namespace Ispit.Konzola
                 for (short i = 0; i < listaMilijunasa.Count; i++)
                 {
                     Console.Write(listaMilijunasa[i]);
-                    if (i == listaMilijunasa.Count - 2)
-                    {
-                        Console.Write(" i ");
-                    }
-                    else if (i < listaMilijunasa.Count - 2)
+                    if (i < listaMilijunasa.Count - 2)
                     {
                         Console.Write(", ");
+                    }
+                    else if (i == listaMilijunasa.Count - 2)
+                    {
+                        Console.Write(" i ");
                     }
                 }
                 Console.WriteLine();
