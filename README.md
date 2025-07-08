@@ -1,1 +1,1 @@
-# 08-07-parc
+# Rješenje za parcijalni ispit iz LINQ
